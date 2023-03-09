@@ -1,3 +1,7 @@
+n = -1
+while(n < 0):
+    n = int(input("Enter max POSITIVE amount of numbers to Fizzbuzz: "))
+
 for i in range (1,100):
     if i % 3 == 0:
         print("Fizz")
